@@ -1,3 +1,5 @@
+import React from 'react';
+
 function createFormState(...controls) {
 	return controls.reduce((form, controlName) => {
   	form[controlName] = {
